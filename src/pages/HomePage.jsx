@@ -123,7 +123,7 @@ const HomePage = () => {
               />
               
               <h1 
-                className="text-5xl sm:text-7xl font-extrabold mb-2 select-none relative"
+                className="text-5xl sm:text-6xl font-extrabold mb-2 select-none relative"
                 style={{
                   fontFamily: "'Montserrat', sans-serif",
                   color: colors.primary,
