@@ -364,7 +364,7 @@ const PaymentPage = () => {
                       >
                         {method.accountName}
                       </p>
-                      <button
+                      {/* <button
                         onClick={() => copyToClipboard(method.accountName, `${method.id}-name`)}
                         className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
                         style={{
@@ -379,7 +379,7 @@ const PaymentPage = () => {
                         ) : (
                           <Copy className="w-5 h-5" />
                         )}
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>
