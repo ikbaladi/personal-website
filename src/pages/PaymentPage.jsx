@@ -364,22 +364,7 @@ const PaymentPage = () => {
                       >
                         {method.accountName}
                       </p>
-                      {/* <button
-                        onClick={() => copyToClipboard(method.accountName, `${method.id}-name`)}
-                        className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
-                        style={{
-                          background: copiedId === `${method.id}-name`
-                            ? 'linear-gradient(135deg, #10B981, #059669)'
-                            : `linear-gradient(135deg, ${colors.primary}, ${colors.accent})`,
-                          color: '#fff',
-                        }}
-                      >
-                        {copiedId === `${method.id}-name` ? (
-                          <Check className="w-5 h-5" />
-                        ) : (
-                          <Copy className="w-5 h-5" />
-                        )}
-                      </button> */}
+                      
                     </div>
                   </div>
                 </div>
